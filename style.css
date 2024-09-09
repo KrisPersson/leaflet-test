@@ -1,5 +1,15 @@
+#app {
+  --padding-main: 8px;
+  margin: 0;
+  padding: var(--padding-main);
+}
+
 #map { 
-  height: 180px; 
+  margin: 0;
+  height: calc(100vh - var(--padding-main)); 
+  max-height: calc(100vh - (var(--padding-main) * 4)); 
+
+
   border: 1px solid black;
 }
 
